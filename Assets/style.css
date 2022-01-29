@@ -1,0 +1,9 @@
+.flexbox-container-about-me {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-pic {
+    max-width: 100px;
+    height: auto;
+}
