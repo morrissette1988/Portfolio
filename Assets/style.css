@@ -9,6 +9,10 @@ header {
     background-color: skyblue;
 }
 
+h1 {
+    font-size: 45px;
+}
+
 nav {
     text-align: center;
     background: lightblue;
@@ -29,14 +33,16 @@ nav ul li {
     
 }
 
-.about-me img{
+.about-me-img{
     float: left;
     max-width: 8%;
     height: auto;
+    padding: 0 0 0 5%;
 }
 
 .about-me p {
-    padding: 0 15 0, 15;
+    padding: 0 200 0, 15;
+    flex-wrap: wrap;
 }
 
 /*Projects Area*/
@@ -102,4 +108,67 @@ nav ul li {
 .contact-me-flexbox p {
     float: right;
     padding: 0 50px 15px 0;
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header {
+        justify-content: center;
+        padding: 0 0 0 0;
+    }
+
+    nav {
+        justify-content: center;
+        padding: 0 0 0 0;
+    }
+
+    .about-me-img {
+        display: flex;
+        width: 100%;
+        height: auto;
+    }
+
+    .about-me {
+        justify-content: center;
+    }
+
+    .run-buddy {
+        flex-direction: column;
+        max-width: 100%;
+        height: auto;
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+    }
+
+    .coming-soon {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+    }
+
+    .contact-me h2 {
+        text-align: center;
+    }
+
+    .contact-me-flexbox {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        padding: 0 0 0 0;
+    }
+}
+
+  
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+    header h1 {
+    }
+}
+  
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    header h1 {
+    }
 }
