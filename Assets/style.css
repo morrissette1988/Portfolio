@@ -1,9 +1,11 @@
 * {
     font-family: Cambria;
+    margin: 0;
 }
 
 h1 {
     text-align: center;
+    background-image: url("./USA-UT-saltlakecity-500.jpg");
 }
 
 nav {
@@ -51,15 +53,32 @@ nav ul li {
 .coming-soon{
 }
 
+
 .coming-soon img {
     display: flex;
-
 }
+
+/*Contact Me Section*/
+
 .contact-me {
+    background-color: skyblue;
+    color: whitesmoke;
+}
+
+.contact-me h2 {
+    padding: 15px 0 0 50px;
+}
+
+.contact-me-flexbox{
     display: flex;
 }
 
-.contact-info {
-    display: flex;
+.contact-me-flexbox address {
+    float: left;
+    padding: 0 0 0 50px;
+}
+
+.contact-me-flexbox p {
     float: right;
+    padding: 0 50px 0 0;
 }
