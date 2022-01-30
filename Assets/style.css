@@ -1,9 +1,19 @@
-.flexbox-container-about-me {
+* {
+    font-family: Cambria;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
     display: flex;
     flex-direction: row;
 }
 
-.profile-pic {
-    max-width: 100px;
-    height: auto;
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+    justify-content: space-between;
 }
