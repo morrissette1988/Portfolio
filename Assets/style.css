@@ -3,30 +3,35 @@
     margin: 0;
 }
 
-h1 {
+header {
     text-align: center;
-    background-image: url("./USA-UT-saltlakecity-500.jpg");
+    padding: 50px 0 50px 0;
+    background-color: skyblue;
 }
 
 nav {
-    display: flex;
-    flex-direction: row;
+    text-align: center;
+    background: lightblue;
 }
 
 nav ul li {
     list-style: none;
-    display: inline-block;
     font-size: 20px;
 }
 
 /*About Me Section*/
 
 .about-me {
+    background-image: url(./USA-UT-saltlakecity-500.jpg);
+    width: 100%;
+    z-index: 0;
+    background-size: cover;
+    
 }
 
 .about-me img{
     float: left;
-    max-width: 10%;
+    max-width: 8%;
     height: auto;
 }
 
@@ -37,11 +42,17 @@ nav ul li {
 /*Projects Area*/
 
 .projects {
+    background-color: lightblue;
+}
 
+.projects h2 {
+    text-align: center;
+    padding: 15px 0 15px 0;
 }
 
 .run-buddy  {
     display: flex;
+    background-color: lightblue;
 }
 
 .run-buddy img {
@@ -51,11 +62,21 @@ nav ul li {
 }
 
 .coming-soon{
+    display: flex;
+    flex-direction: row;
+    background-color: lightblue;
 }
 
+.coming-soon-1{
+    max-width: 45%;
+    height: auto;
+    padding: 0 0% 5% 5%;
+}
 
-.coming-soon img {
-    display: flex;
+.coming-soon-2 {
+    max-width: 45%;
+    height: auto;
+    padding: 0 5% 5% 0%;
 }
 
 /*Contact Me Section*/
@@ -75,10 +96,10 @@ nav ul li {
 
 .contact-me-flexbox address {
     float: left;
-    padding: 0 0 0 50px;
+    padding: 0 0 15px 50px;
 }
 
 .contact-me-flexbox p {
     float: right;
-    padding: 0 50px 0 0;
+    padding: 0 50px 15px 0;
 }
