@@ -15,5 +15,14 @@ nav ul li {
     list-style: none;
     display: inline-block;
     font-size: 20px;
-    justify-content: space-between;
+}
+
+.about-me {
+
+}
+
+.about-me img{
+    float: left;
+    max-width: 50%;
+    height: auto;
 }
