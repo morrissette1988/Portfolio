@@ -17,12 +17,49 @@ nav ul li {
     font-size: 20px;
 }
 
-.about-me {
+/*About Me Section*/
 
+.about-me {
 }
 
 .about-me img{
     float: left;
-    max-width: 50%;
+    max-width: 10%;
     height: auto;
+}
+
+.about-me p {
+    padding: 0 15 0, 15;
+}
+
+/*Projects Area*/
+
+.projects {
+
+}
+
+.run-buddy  {
+    display: flex;
+}
+
+.run-buddy img {
+    padding: 0 5% 0 5%;
+    max-width: 90%;
+    height: auto;
+}
+
+.coming-soon{
+}
+
+.coming-soon img {
+    display: flex;
+
+}
+.contact-me {
+    display: flex;
+}
+
+.contact-info {
+    display: flex;
+    float: right;
 }
