@@ -26,11 +26,7 @@ nav ul li {
 /*About Me Section*/
 
 .about-me {
-    background-image: url(./USA-UT-saltlakecity-500.jpg);
-    width: 100%;
-    z-index: 0;
-    background-size: cover;
-    
+    background-color: skyblue;
 }
 
 .about-me-img{
@@ -118,18 +114,21 @@ nav ul li {
     }
 
     nav {
-        justify-content: center;
-        padding: 0 0 0 0;
-    }
-
-    .about-me-img {
-        display: flex;
-        width: 100%;
-        height: auto;
+        text-align: center;
     }
 
     .about-me {
-        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-me-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        padding: 0 5px 0 5px;
     }
 
     .run-buddy {
