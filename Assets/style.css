@@ -63,23 +63,26 @@ nav ul li {
     height: auto;
 }
 
-.coming-soon{
+.coming-soon-container {
     display: flex;
-    flex-direction: row;
+    max-width: 90%;
+    margin: 0 5% 0 5%;
     background-color: lightblue;
+    flex-direction: row;
 }
 
-.coming-soon-1{
+.coming-soon-1 {
     max-width: 45%;
     height: auto;
-    padding: 0 0% 5% 5%;
+    float: left;
 }
 
 .coming-soon-2 {
     max-width: 45%;
     height: auto;
-    padding: 0 5% 5% 0%;
+    float: right;
 }
+
 
 /*Contact Me Section*/
 
@@ -128,6 +131,7 @@ nav ul li {
         margin-left: auto;
         margin-right: auto;
         width: 50%;
+        max-width: 50%;
         padding: 0 5px 0 5px;
     }
 
