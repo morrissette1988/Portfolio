@@ -72,13 +72,13 @@ nav ul li {
 }
 
 .coming-soon-1 {
-    max-width: 45%;
+    max-width: 50%;
     height: auto;
     float: left;
 }
 
 .coming-soon-2 {
-    max-width: 45%;
+    max-width: 50%;
     height: auto;
     float: right;
 }
@@ -104,8 +104,8 @@ nav ul li {
     padding: 0 0 15px 50px;
 }
 
-.contact-me-flexbox p {
-    float: right;
+.phonenumber {
+    justify-content: right;
     padding: 0 50px 15px 0;
 }
 
@@ -143,12 +143,20 @@ nav ul li {
         margin: 0 0 0 0;
     }
 
-    .coming-soon {
+    .coming-soon-container {
         flex-direction: column;
         width: 100%;
         height: auto;
-        padding: 0 0 0 0;
-        margin: 0 0 0 0;
+    }
+
+    .coming-soon-1 {
+        max-width: 100%;
+        height: auto;     
+    }
+
+    .coming-soon-2 {
+        max-width: 100%;
+        
     }
 
     .contact-me h2 {
