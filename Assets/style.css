@@ -43,7 +43,7 @@ nav ul li {
 
 /*Projects Area*/
 
-.projects {
+#projects {
     background-color: lightblue;
 }
 
@@ -91,14 +91,13 @@ nav ul li {
     color: whitesmoke;
 }
 
-.contact-me h2 {
-    padding: 15px 0 0 50px;
-}
-
 .contact-me-flexbox{
     display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
+/**
 .contact-me-flexbox address {
     float: left;
     padding: 0 0 15px 50px;
@@ -108,6 +107,8 @@ nav ul li {
     justify-content: right;
     padding: 0 50px 15px 0;
 }
+
+**/
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
@@ -169,17 +170,145 @@ nav ul li {
         justify-content: center;
         padding: 0 0 0 0;
     }
+
+    .contact-me-flexbox p {
+        text-align: center;
+    }
 }
 
   
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
-    header h1 {
+    @media screen and (max-width: 980px) {
+        header {
+            justify-content: center;
+            padding: 0 0 0 0;
+        }
+    
+        nav {
+            text-align: center;
+        }
+    
+        .about-me {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+    
+        .about-me-img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            max-width: 50%;
+            padding: 0 5px 0 5px;
+        }
+    
+        .run-buddy {
+            flex-direction: column;
+            max-width: 100%;
+            height: auto;
+            padding: 0 0 0 0;
+            margin: 0 0 0 0;
+        }
+    
+        .coming-soon-container {
+            flex-direction: column;
+            width: 100%;
+            height: auto;
+        }
+    
+        .coming-soon-1 {
+            max-width: 100%;
+            height: auto;     
+        }
+    
+        .coming-soon-2 {
+            max-width: 100%;
+            
+        }
+    
+        .contact-me h2 {
+            text-align: center;
+        }
+    
+        .contact-me-flexbox {
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            padding: 0 0 0 0;
+        }
+    
+        .contact-me-flexbox p {
+            text-align: center;
+        }
     }
 }
   
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
-    header h1 {
+    @media screen and (max-width: 980px) {
+        header {
+            justify-content: center;
+            padding: 0 0 0 0;
+        }
+    
+        nav {
+            text-align: center;
+        }
+    
+        .about-me {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+    
+        .about-me-img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            max-width: 50%;
+            padding: 0 5px 0 5px;
+        }
+    
+        .run-buddy {
+            flex-direction: column;
+            max-width: 100%;
+            height: auto;
+            padding: 0 0 0 0;
+            margin: 0 0 0 0;
+        }
+    
+        .coming-soon-container {
+            flex-direction: column;
+            width: 100%;
+            height: auto;
+        }
+    
+        .coming-soon-1 {
+            max-width: 100%;
+            height: auto;     
+        }
+    
+        .coming-soon-2 {
+            max-width: 100%;
+            
+        }
+    
+        .contact-me h2 {
+            text-align: center;
+        }
+    
+        .contact-me-flexbox {
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            padding: 0 0 0 0;
+        }
+    
+        .contact-me-flexbox p {
+            text-align: center;
+        }
     }
 }
